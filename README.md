@@ -27,3 +27,6 @@ CONTENT OF THE REPOSITORY
  signatures, and compare them with the ones in the COSMIC databse (generated from human cancer samples)
  
  -41586_2020_2876_MOESM3_ESM.csv : The list of animals that were analyzed by the Zoonomia consortium
+ 
+ -"outfile_AcoCah.txt", "acocah.jpeg" and "acocah1.jpeg" re examnple of the ourputs of "Sigature1.R", "graph.R" and "graph2.R" respectively, for the animal 
+ Acomys Cahirinus
