@@ -19,7 +19,7 @@ CONTENT OF THE REPOSITORY
 
 -graph.R : To make the graph of the signature once the histogram has been calculated
 
--graph2.R : To make a "compressed" mutational signature, a 6-entry histogram where we do not account for th nearest neighbors of the mutated nucleotide
+-graph2.R : To make a "compressed" mutational signature, a 6-entry histogram where we do not account for the nearest neighbors of the mutated nucleotidee
 
 -read_out.R : To read all the output files geenrated by "Signature1.R", build a matrix with all the mutational histograms, and prepare for deconvolution
 
