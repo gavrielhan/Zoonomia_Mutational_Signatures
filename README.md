@@ -23,10 +23,18 @@ CONTENT OF THE REPOSITORY
 
 -read_out.R : To read all the output files geenrated by "Signature1.R", build a matrix with all the mutational histograms, and prepare for deconvolution
 
--test_nmf.R  : To test the possible nuber of signatures to deconvolute, and then use nmf to do so.. It also generates many graphs, depicts the deconvoluted
+-test_nmf.R  : To test the possible nuber of signatures to deconvolute, and then use nmf to do so. It also generates many graphs, depicts the deconvoluted
  signatures, and compare them with the ones in the COSMIC databse (generated from human cancer samples)
  
  -41586_2020_2876_MOESM3_ESM.csv : The list of animals that were analyzed by the Zoonomia consortium
  
  -"outfile_AcoCah.txt", "acocah.jpeg" and "acocah1.jpeg" re examnple of the ourputs of "Sigature1.R", "graph.R" and "graph2.R" respectively, for the animal 
  Acomys Cahirinus
+ 
+ DATA AVAILABILITY
+ 
+ gVCF files  : https://data.broadinstitute.org/200m_variation/
+ 
+ HAL library : https://github.com/ComparativeGenomicsToolkit/hal
+ 
+ HAL file  : https://cglgenomics.ucsc.edu/data/cactus/
