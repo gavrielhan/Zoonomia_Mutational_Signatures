@@ -6,7 +6,7 @@ In this research, we analyzed the genetic data provided by the Zoonomia Consorti
 mutational patterns over many generations of evolution of 119 eutherian mammalian species. A pipeline to calculate these signatures and to deconvolute them has
 been built, hoping to shed light on similar mutational processes occurring in humans, and in human cancer cells. 
 
-Due to uncertanty in the variant calling, the exact direction of the mutations is unknown ( e.g. A->C or C->A), so the results are are not informative in th form 
+Due to uncertanty in the variant calling, the exact direction of the mutations is unknown ( e.g. A->C or C->A), so the results are are not informative in the form 
 of a 96-entry vector, but just as a 48-entry vector. 
 
 CONTENT OF THE REPOSITORY
