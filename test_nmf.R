@@ -1,6 +1,20 @@
 #install.packages("BiocManager")
 #BiocManager::install("sigminer", dependencies = TRUE)
 library(sigminer)
+
+file_list <- list.files(path="C:/..../output") #the directory that contains just the output files
+tot_out <- rep(0,96)
+tot_out<- as.data.frame(tot_out)
+for (i in file_list){
+  myData<-read.delim(i, header = TRUE, sep = "\t", dec = ".")
+  vec <- myData[length(myData[,1]),1]
+  vec<-substring(vec,5)
+  vec<-as.double(unlist(strsplit(vec, ',')))
+  tot_out<-cbind(tot_out,vec)
+}
+tot_out[,1]<-NULL
+
+
 #run this tests to check the appropriate number of signatures to deconvolute 
 if( !isCHECK() ){
   
