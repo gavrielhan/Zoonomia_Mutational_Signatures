@@ -21,9 +21,8 @@ CONTENT OF THE REPOSITORY
 
 -graph2.R : To make a "compressed" mutational signature, a 6-entry histogram where we do not account for the nearest neighbors of the mutated nucleotidee
 
--read_out.R : To read all the output files geenrated by "Signature1.R", build a matrix with all the mutational histograms, and prepare for deconvolution
-
--test_nmf.R  : To test the possible nuber of signatures to deconvolute, and then use nmf to do so. It also generates many graphs, depicts the deconvoluted
+-test_nmf.R  : To read all the output files geenrated by "Signature1.R", build a matrix with all the mutational histograms, and prepare for deconvolution;
+ to test the possible nuber of signatures to deconvolute, and then use nmf to do so. It also generates many graphs, depicts the deconvoluted
  signatures, and compare them with the ones in the COSMIC databse (generated from human cancer samples)
  
  -41586_2020_2876_MOESM3_ESM.csv : The list of animals that were analyzed by the Zoonomia consortium
