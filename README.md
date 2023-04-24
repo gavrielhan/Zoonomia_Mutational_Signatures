@@ -11,6 +11,8 @@ of a 96-entry vector, but just as a 48-entry vector.
 
 CONTENT OF THE REPOSITORY
 
+-exporting.sh : To extract a fasta file from the HAL file 
+
 -sort_scaffolds.sh : To sort the scaffolds in the FASTA files and order them by scaffold number 
 
 -fasta_TO_gav.sh : To eliminate the new line tab between scaffold number and DNA sequence 
